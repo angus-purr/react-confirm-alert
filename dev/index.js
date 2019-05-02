@@ -17,7 +17,8 @@ class App extends React.Component {
           label: 'No',
           onClick: () => alert('Click No')
         }
-      ]
+      ],
+      containerClassName: 'share'
     })
   }
 
@@ -47,7 +48,11 @@ class App extends React.Component {
             <a href='javascript:;' className='button' onClick={this.submit}>
               Show confirm
             </a>
-            <a href='javascript:;' className='button outline' onClick={this.handleClickCustomUI}>
+            <a
+              href='javascript:;'
+              className='button outline'
+              onClick={this.handleClickCustomUI}
+            >
               Show confirm Custom UI
             </a>
           </div>
