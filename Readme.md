@@ -36,7 +36,8 @@ const options = {
   closeOnClickOutside: true,
   willUnmount: () => {},
   onClickOutside: () => {},
-  onKeypressEscape: () => {}
+  onKeypressEscape: () => {},
+  containerClassName: "",
 };
 
 confirmAlert(options);
